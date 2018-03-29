@@ -1,0 +1,112 @@
+/*
+roadrunner desert background image */
+
+body {
+  background-image: url("../images/434680.png");
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  }
+
+/* coyote image */
+#coyote {
+  display: flex;
+  padding-top: 500px;
+  margin-left:50px;
+  margin-bottom: 50px;
+  width:300px;
+  height:300px;
+  border-radius:20px;
+
+}
+
+/*  game title in h1 tag with color change animation*/
+
+h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  padding-top: 20px;
+  font-family: fantasy;
+  color: yellow;
+  background-color: gray;
+  animation: mymove 5s infinite;
+}
+
+@-webkit-keyframes mymove {
+    from {background-color: gray;}
+    to {background-color: black;}
+}
+
+/* unreedeemed click counter */
+#currentTotal {
+  width:150px;
+  height:50px;
+  border:1px solid black;
+  text-align: center;
+  font-size: 48px;
+  border-radius:40px;
+}
+
+/* miles traveled counter */
+small {
+  font-family: verdana;
+}
+
+/* miles traveled, buttons and unredeemed click counter */
+#stats {
+  display: flex;
+  padding-left: 50px;
+  padding-bottom:20px;
+
+
+}
+
+.button {
+  width:150px;
+  height:10px;
+  border:1px solid black;
+  border-radius:10px;
+  text-align: center;
+  font-family: verdana;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 15px;
+  padding: 15px 25px;
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 9px black;
+}
+
+/* button with hover effect  */
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+/* button colors */
+#walk {
+  background-color: brown;
+}
+
+#jog {
+  background-color: purple;
+}
+
+#run {
+  background-color: green;
+}
+
+#sprint {
+  background-color:blue;
+}
+
+/* div for draggable area on coyote */
+/* #div1 {
+    width:200px;
+    height: 200px;
+    margin-left: 1500px;
+
+} */

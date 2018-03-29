@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+<!-- mini icon added to title -->
+  <link rel="icon" type="image/png" href="images/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>run for it</title>
+
+<header>
+  <h1>birdchaser</h1>
+</header>
+
+<img id="coyote" src="http://25.media.tumblr.com/45e3dd6f33d10391658a7d24b09d30fe/tumblr_mgbr1huXTG1rtbysco1_400.gif" draggable="true" ondragstart="drag(event)" >
+
+
+<body>
+
+ <div id="stats">
+<br>
+
+<small>Miles Traveled <span id="miles"></span></small>
+<div id="currentTotal"></div>
+<div id="buttons">
+  <div class="button" id="walk" data-val=".1" data-cost="10">walk - <span>10</span></div>
+  <div class="button" id="jog" data-val="1" data-cost="100">jog - <span>100</span></div>
+  <div class="button" id="run" data-val="1000" data-cost="1000">run - <span>1000</span></div>
+  <div class="button" id="sprint" data-val="100" data-cost="10000">sprint - <span>10000</span></div>
+</div>
+</div>
+
+<!-- <div id= "div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div> -->
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+<footer></footer>
+</html>
