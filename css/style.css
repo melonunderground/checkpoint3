@@ -1,3 +1,5 @@
+/*
+roadrunner desert background image */
 
 body {
   background-image: url("../images/434680.png");
@@ -5,9 +7,12 @@ body {
   background-size: 100% ;
   }
 
+/* coyote image */
 #coyote {
   display: flex;
   padding-top: 500px;
+  margin-left:50px;
+  margin-bottom: 50px;
   width:300px;
   height:300px;
   border-radius:20px;
@@ -32,7 +37,7 @@ h1 {
     to {background-color: black;}
 }
 
-
+/* unreedeemed click counter */
 #currentTotal {
   width:150px;
   height:50px;
@@ -42,9 +47,12 @@ h1 {
   border-radius:40px;
 }
 
+/* miles traveled counter */
 small {
   font-family: verdana;
 }
+
+/* miles traveled, buttons and unredeemed click counter */
 #stats {
   display: flex;
   padding-left: 50px;
@@ -69,6 +77,7 @@ small {
   box-shadow: 0 9px black;
 }
 
+/* button with hover effect  */
 .button:hover {background-color: #3e8e41}
 
 .button:active {
@@ -77,6 +86,7 @@ small {
   transform: translateY(4px);
 }
 
+/* button colors */
 #walk {
   background-color: brown;
 }
@@ -93,10 +103,10 @@ small {
   background-color:blue;
 }
 
-#div1 {
+/* div for draggable area on coyote */
+/* #div1 {
     width:200px;
     height: 200px;
-    padding-bottom: 80px;
     margin-left: 1500px;
 
-}
+} */
